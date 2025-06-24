@@ -6,37 +6,35 @@ Una API REST construida en .NET para gestionar tareas personales con autenticaci
 
 ## 🧱 Estructura del Proyecto
 
-TareasApi/
-│
-├── Application/
-│ ├── Repositories/
-│ │ ├── ITareaRepository.cs
-│ │ └── IUsuarioRepository.cs
-│ └── Services/
-│ ├── TareaService.cs
-│ └── UsuarioService.cs
-│
-├── Domain/
-│ └── Entities/
-│ ├── Tarea.cs
-│ └── Usuario.cs
-│
-├── Infrastructure/
-│ └── Data/
-│ ├── MongoDbContext.cs
-│ ├── TareaRepository.cs
-│ └── UsuarioRepository.cs
-│
-├── Presentation/
-│ └── Controllers/
-│ ├── TareaController.cs
-│ └── UsuarioController.cs
-│
-├── Security/
-│ └── JwtGenerator.cs
-│
-├── appSettings.json
-└── Program.cs
+## 🧱 Estructura del Proyecto
+
+- **Application/**
+  - Repositories/
+    - ITareaRepository.cs
+    - IUsuarioRepository.cs
+  - Services/
+    - TareaService.cs
+    - UsuarioService.cs
+- **Domain/**
+  - Entities/
+    - Tarea.cs
+    - Usuario.cs
+- **Infrastructure/**
+  - Data/
+    - MongoDbContext.cs
+    - TareaRepository.cs
+    - UsuarioRepository.cs
+- **Presentation/**
+  - Controllers/
+    - TareaController.cs
+    - UsuarioController.cs
+- **Security/**
+  - JwtGenerator.cs
+- Program.cs
+- appSettings.json
+- .gitignore
+- README.md
+
 
 ---
 
