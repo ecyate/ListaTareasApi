@@ -1,0 +1,62 @@
+# Compilación de .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Archivos temporales de publicación
+publish/
+*.dbmdl
+*.log
+
+# Archivos de configuración de usuario de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Archivos de configuración de Rider o JetBrains
+.idea/
+
+# EditorConfig y archivos de entorno específicos
+*.code-workspace
+
+# Archivos temporales y de sistema
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Configuración de entorno de desarrollo (clave JWT, cadena de conexión MongoDB)
+appsettings.Development.json
+appsettings.Production.json
+
+# Archivos sensibles que contienen credenciales (si decides mover config aquí)
+appsettings.Local.json
+
+# Paquetes NuGet locales
+*.nupkg
+*.snupkg
+packages/
+
+# Datos de MongoDB locales (si alguna vez usas mongo localmente)
+data/
+dump/
+
+# Archivos generados por VS Code (si usas a la par)
+.vscode/
+
+# Archivos del entorno de desarrollo
+.env
+.env.*
+
+# Logs
+*.log
+
+# Backup generado por errores
+*.orig
+
+# Node modules (si usas alguna herramienta frontend o utilidades JS)
+node_modules/
