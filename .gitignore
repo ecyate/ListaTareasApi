@@ -1,24 +1,24 @@
-# Compilaci�n de .NET
+﻿# Compilación de .NET
 bin/
 obj/
 *.dll
 *.exe
 *.pdb
 
-# Archivos temporales de publicaci�n
+# Archivos temporales de publicación
 publish/
 *.dbmdl
 *.log
 
-# Archivos de configuraci�n de usuario de Visual Studio
+# Archivos de configuración de usuario de Visual Studio
 .vs/
 *.user
 *.suo
 
-# Archivos de configuraci�n de Rider o JetBrains
+# Archivos de configuración de Rider o JetBrains
 .idea/
 
-# EditorConfig y archivos de entorno espec�ficos
+# EditorConfig y archivos de entorno específicos
 *.code-workspace
 
 # Archivos temporales y de sistema
@@ -29,21 +29,17 @@ publish/
 .DS_Store
 Thumbs.db
 
-# Configuraci�n de entorno de desarrollo (clave JWT, cadena de conexi�n MongoDB)
+# Configuración de entorno de desarrollo (clave JWT, cadena de conexión MongoDB)
 appsettings.Development.json
 appsettings.Production.json
 
-# Archivos sensibles que contienen credenciales (si decides mover config aqu�)
+# Archivos sensibles que contienen credenciales (si decides mover config aquí)
 appsettings.Local.json
 
 # Paquetes NuGet locales
 *.nupkg
 *.snupkg
 packages/
-
-# Datos de MongoDB locales (si alguna vez usas mongo localmente)
-data/
-dump/
 
 # Archivos generados por VS Code (si usas a la par)
 .vscode/
@@ -60,3 +56,11 @@ dump/
 
 # Node modules (si usas alguna herramienta frontend o utilidades JS)
 node_modules/
+
+# ⚠️ IMPORTANTE:
+# Si necesitas ignorar solo carpetas de datos locales de MongoDB, cámbiala así:
+# dump/         ← si haces backups locales
+# data_local/   ← si usas una carpeta local distinta
+
+# Se eliminó o comentó esta línea para que no interfiera:
+# data/
